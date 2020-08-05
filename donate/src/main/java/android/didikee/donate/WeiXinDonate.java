@@ -93,9 +93,9 @@ public class WeiXinDonate {
     }
 
     /**
-     * 判断支付宝客户端是否已安装，建议调用转账前检查
+     * 判断微信客户端是否已安装，建议调用转账前检查
      * @param context Context
-     * @return 支付宝客户端是否已安装
+     * @return 微信客户端是否已安装
      */
     public static boolean hasInstalledWeiXinClient(Context context) {
         PackageManager pm = context.getPackageManager();
@@ -109,7 +109,7 @@ public class WeiXinDonate {
     }
 
     /**
-     * 获取支付宝客户端版本名称，作用不大
+     * 获取微信客户端版本名称，作用不大
      * @param context Context
      * @return 版本名称
      */
